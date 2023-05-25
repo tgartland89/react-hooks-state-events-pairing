@@ -8,7 +8,7 @@ function Comments ({ comments }) {
         
 return (
 <div key={comments.id}>
-    <h5>{comments.user}</h5>
+    <h6>{comments.user}</h6>
     <span>{comments.comment}</span>
 </div>
 )}

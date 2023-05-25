@@ -1,7 +1,6 @@
 import React from "react"
 
 function Movie({source}) {
-
 return (
     <iframe
         width="919"
